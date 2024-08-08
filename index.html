@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schachbrettmuster mit Sternenbildern</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Sternenbilder</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html?type=svg">SVG Beispiel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html?type=canvas">Canvas Beispiel</a>
+                    </li>
+                </ul>
+                <button id="toggle-dark-mode" class="btn btn-secondary">Dunkelmodus</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-4">
+        <h1>Schachbrettmuster mit Sternenbildern</h1>
+        <label for="cluster-select">Anzahl der Cluster:</label>
+        <select id="cluster-select" class="custom-select w-auto">
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="400">400</option>
+        </select>
+        <h2 id="example-title" class="mt-4"></h2>
+        <div id="output" class="output-container d-flex flex-wrap justify-content-center mt-4"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
