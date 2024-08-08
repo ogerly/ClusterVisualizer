@@ -14,7 +14,7 @@ ClusterVisualizer ist eine webbasierte Anwendung zur Visualisierung von Clustern
 
 
 
-## Demo: https://codepen.io/ogerly/pen/poXrNme
+## Demo: [https://codepen.io/ogerly/pen/poXrNme](https://codepen.io/ogerly/pen/poXrNme)
 
 
 ## Inhaltsverzeichnis
