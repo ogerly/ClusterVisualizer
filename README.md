@@ -329,6 +329,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
 Beiträge sind herzlich willkommen! Wenn du Fehler findest oder Verbesserungen vorschlagen möchtest, öffne bitte ein Issue oder erstelle einen Pull Request.
 
+
+
+
+ 
+## Cross-Origin Resource Sharing (CORS) Server
+
+Um das Projekt lokal zu testen und sicherzustellen, dass keine CORS-Probleme auftreten, wird ein einfacher Python-Server (`cors_server.py`) bereitgestellt. Dieser Server fügt die notwendigen CORS-Header hinzu, um den Zugriff von verschiedenen Quellen zu ermöglichen.
+
+### Starten des CORS-Servers
+
+1. Stelle sicher, dass Python installiert ist (Python 3 empfohlen).
+2. Navigiere in das Projektverzeichnis.
+3. Starte den Server mit folgendem Befehl:
+   ```sh
+   python3 cors_server.py
+   ```
+4. Der Server wird auf `http://localhost:8000` laufen.
+
+Der `cors_server.py` ist im Projekt enthalten, um sicherzustellen, dass die HTML-Dateien problemlos von einem lokalen Server geladen werden können, ohne dass CORS-Probleme auftreten. Dies ist besonders nützlich, wenn das Projekt auf verschiedene Domains oder Subdomains verteilt wird.
+
+
 ## Lizenz
 
 Dieses Projekt steht unter der [MIT Lizenz](LICENSE).
