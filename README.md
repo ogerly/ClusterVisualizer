@@ -8,9 +8,10 @@
 
 ClusterVisualizer ist eine webbasierte Anwendung zur Visualisierung von Clustern in einem quadratischen Gittermuster. Die Anwendung bietet die Möglichkeit, Cluster mithilfe von SVG oder Canvas darzustellen und unterstützt einen Dunkelmodus für eine bessere Benutzererfahrung.
 
-![Bildschirmfoto vom 2024-08-08 12-52-55](https://github.com/user-attachments/assets/5ebac39f-fa2a-448d-a134-76f51c8a61a5)
-![Bildschirmfoto vom 2024-08-08 12-53-09](https://github.com/user-attachments/assets/3c26ae5a-ec3e-4831-be66-e0b316a7088b)
-![Bildschirmfoto vom 2024-08-08 12-52-50](https://github.com/user-attachments/assets/ba907eb7-8fa8-485f-a3d4-4ac156be561f)
+![Bildschirmfoto vom 2024-08-08 12-52-50](https://github.com/user-attachments/assets/b1e09d57-20eb-46c6-9a51-bfa996bd82f3)
+![Bildschirmfoto vom 2024-08-08 12-52-55](https://github.com/user-attachments/assets/3fd993c0-b7f5-42e2-96c1-88b57475af0e)
+![Bildschirmfoto vom 2024-08-08 12-53-09](https://github.com/user-attachments/assets/455d0afb-928b-4f16-99cd-e359d9e33731)
+
 
 
 ## Demo: https://codepen.io/ogerly/pen/poXrNme
